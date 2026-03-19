@@ -1,0 +1,21 @@
+
+{
+  "name": "products-cli",
+  "version": "1.0.0",
+  "description": "Simple CLI tool for managing products using TypeScript, Sequelize and PostgreSQL",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.0",
+    "pg": "^8.11.0",
+    "sequelize": "^6.35.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  }
+}
